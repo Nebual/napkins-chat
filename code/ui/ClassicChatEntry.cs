@@ -22,7 +22,7 @@ public partial class ClassicChatEntry : Panel
 	{
 		base.Tick();
 
-		if ( TimeSinceBorn > 3 )
+		if ( TimeSinceBorn > 3 && !ClassicChatBox.Current.HasClass( "open" ) )
 		{
 			Hide();
 		}
