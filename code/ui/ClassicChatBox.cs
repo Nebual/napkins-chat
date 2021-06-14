@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 public partial class ClassicChatBox : Panel
 {
-	static ClassicChatBox Current;
+	public static ClassicChatBox Current;
 
 	public Panel Canvas { get; protected set; }
 	public TextEntry Input { get; protected set; }
