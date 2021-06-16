@@ -16,7 +16,7 @@ public partial class ClassicChatBox : Panel
 	{
 		Current = this;
 
-		StyleSheet.Load( "/ui/napkins-chat/ClassicChatBox.scss" );
+		StyleSheet.Load( "/napkins-chat/ui/ClassicChatBox.scss" );
 
 		Canvas = Add.Panel( "classicchat_canvas" );
 
