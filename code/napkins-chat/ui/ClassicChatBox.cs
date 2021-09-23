@@ -21,8 +21,8 @@ public partial class ClassicChatBox : Panel
 		Canvas = Add.Panel( "classicchat_canvas" );
 
 		Input = Add.TextEntry( "" );
-		Input.AddEvent( "onsubmit", () => Submit() );
-		Input.AddEvent( "onblur", () => Close() );
+		Input.AddEventListener( "onsubmit", () => Submit() );
+		Input.AddEventListener( "onblur", () => Close() );
 		Input.AcceptsFocus = true;
 		Input.AllowEmojiReplace = true;
 	}
